@@ -236,14 +236,3 @@ $(function(){
     new WOW().init();
 });
 
-
-//Home animation on page load
-$(window).on('load',function(){
-    
-   $("#home-heading-1").addClass("animate__fadeInDown"); 
-   $("#home-heading-2").addClass("animate__fadeInLeft"); 
-   $("#home-text").addClass("animate__zoomIn"); 
-   $("#home-btn").addClass("animate__zoomIn"); 
-   $("#arrow-down i").addClass("animate__fadeInDown infinite"); 
-    
-});
